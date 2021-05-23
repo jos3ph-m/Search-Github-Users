@@ -5,8 +5,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <Dashboard></Dashboard>
-      <Login />
+      <Route>
+        <Dashboard></Dashboard>
+      </Route>
+      <Route>
+        <Login />
+      </Route>
     </Router>
   );
 }
