@@ -7,7 +7,6 @@ function App() {
     <Router>
       <Dashboard></Dashboard>
       <Login />
-      <Error />
     </Router>
   );
 }
