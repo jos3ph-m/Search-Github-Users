@@ -11,6 +11,9 @@ function App() {
       <Route path="/login" exact={true}>
         <Login />
       </Route>
+      <Route path="*">
+        <Error></Error>
+      </Route>
     </Router>
   );
 }
