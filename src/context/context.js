@@ -8,4 +8,4 @@ const rootUrl = 'https://api.github.com';
 
 const GithubContext = React.createContext();
 
-// Provider
+// Provider, Consumer
