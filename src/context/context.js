@@ -7,3 +7,5 @@ import axios from 'axios';
 const rootUrl = 'https://api.github.com';
 
 const GithubContext = React.createContext();
+
+// Provider
