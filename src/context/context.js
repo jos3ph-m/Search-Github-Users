@@ -15,3 +15,5 @@ const GithubProvider = ({ children }) => {
     <GithubContext.Provider value={'hello'}>{children}</GithubContext.Provider>
   );
 };
+
+export { GithubProvider, GithubContext };
