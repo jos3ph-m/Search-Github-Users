@@ -11,5 +11,7 @@ const GithubContext = React.createContext();
 // Provider, Consumer - GithubContext.Provider
 
 const GithubProvider = ({ children }) => {
-  return <GithubContext.Provider value={}>{children}</GithubContext.Provider>;
+  return (
+    <GithubContext.Provider value={'hello'}>{children}</GithubContext.Provider>
+  );
 };
