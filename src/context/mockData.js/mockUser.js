@@ -23,7 +23,7 @@ export default {
   location: 'Los Angeles',
   email: null,
   hireable: null,
-  bio: 'Creator of Coding Addict',
+  bio: 'Licensing by day, developer by night',
   twitter_username: 'jos3ph_m',
   public_repos: 152,
   public_gists: 0,
