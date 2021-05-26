@@ -11,7 +11,7 @@ export default {
   gists_url: 'https://api.github.com/users/jos3ph-m/gists{/gist_id}',
   starred_url: 'https://api.github.com/users/jos3ph-m/starred{/owner}{/repo}',
   subscriptions_url: 'https://api.github.com/users/jos3ph-m/subscriptions',
-  organizations_url: 'https://api.github.com/users/john-smilga/orgs',
+  organizations_url: 'https://api.github.com/users/jos3ph-m/orgs',
   repos_url: 'https://api.github.com/users/john-smilga/repos',
   events_url: 'https://api.github.com/users/john-smilga/events{/privacy}',
   received_events_url:
