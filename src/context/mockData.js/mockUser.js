@@ -13,7 +13,7 @@ export default {
   subscriptions_url: 'https://api.github.com/users/jos3ph-m/subscriptions',
   organizations_url: 'https://api.github.com/users/jos3ph-m/orgs',
   repos_url: 'https://api.github.com/users/jos3ph-m/repos',
-  events_url: 'https://api.github.com/users/john-smilga/events{/privacy}',
+  events_url: 'https://api.github.com/users/jos3ph-m/events{/privacy}',
   received_events_url:
     'https://api.github.com/users/john-smilga/received_events',
   type: 'User',
