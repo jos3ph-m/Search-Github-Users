@@ -4,7 +4,7 @@ export default {
   node_id: 'MDQ6VXNlcjQyMTMzMzg5',
   avatar_url: 'https://avatars3.githubusercontent.com/u/42133389?v=4',
   gravatar_id: '',
-  url: 'https://api.github.com/users/john-smilga',
+  url: 'https://api.github.com/users/jos3ph-m',
   html_url: 'https://github.com/john-smilga',
   followers_url: 'https://api.github.com/users/john-smilga/followers',
   following_url:
