@@ -1,5 +1,5 @@
 export default {
-  login: 'john-smilga',
+  login: 'jos3ph-m',
   id: 42133389,
   node_id: 'MDQ6VXNlcjQyMTMzMzg5',
   avatar_url: 'https://avatars3.githubusercontent.com/u/42133389?v=4',
@@ -7,8 +7,7 @@ export default {
   url: 'https://api.github.com/users/jos3ph-m',
   html_url: 'https://github.com/jos3ph-m',
   followers_url: 'https://api.github.com/users/jos3ph-m/followers',
-  following_url:
-    'https://api.github.com/users/john-smilga/following{/other_user}',
+  following_url: 'https://api.github.com/users/jos3ph-m/following{/other_user}',
   gists_url: 'https://api.github.com/users/john-smilga/gists{/gist_id}',
   starred_url:
     'https://api.github.com/users/john-smilga/starred{/owner}{/repo}',
