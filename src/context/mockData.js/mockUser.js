@@ -5,7 +5,7 @@ export default {
   avatar_url: 'https://avatars3.githubusercontent.com/u/42133389?v=4',
   gravatar_id: '',
   url: 'https://api.github.com/users/jos3ph-m',
-  html_url: 'https://github.com/john-smilga',
+  html_url: 'https://github.com/jos3ph-m',
   followers_url: 'https://api.github.com/users/john-smilga/followers',
   following_url:
     'https://api.github.com/users/john-smilga/following{/other_user}',
