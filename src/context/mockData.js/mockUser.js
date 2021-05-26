@@ -14,8 +14,7 @@ export default {
   organizations_url: 'https://api.github.com/users/jos3ph-m/orgs',
   repos_url: 'https://api.github.com/users/jos3ph-m/repos',
   events_url: 'https://api.github.com/users/jos3ph-m/events{/privacy}',
-  received_events_url:
-    'https://api.github.com/users/john-smilga/received_events',
+  received_events_url: 'https://api.github.com/users/jos3ph-m/received_events',
   type: 'User',
   site_admin: false,
   name: 'John Smilga',
