@@ -1,8 +1,8 @@
 export default {
   login: 'jos3ph-m',
-  id: 42133389,
+  id: 53497675,
   node_id: 'MDQ6VXNlcjQyMTMzMzg5',
-  avatar_url: 'https://avatars3.githubusercontent.com/u/42133389?v=4',
+  avatar_url: 'https://avatars3.githubusercontent.com/u/53497675?v=4',
   gravatar_id: '',
   url: 'https://api.github.com/users/jos3ph-m',
   html_url: 'https://github.com/jos3ph-m',
