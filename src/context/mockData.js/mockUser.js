@@ -17,7 +17,7 @@ export default {
   received_events_url: 'https://api.github.com/users/jos3ph-m/received_events',
   type: 'User',
   site_admin: false,
-  name: 'John Smilga',
+  name: 'Joseph Medina',
   company: 'Coding Addict',
   blog: 'www.johnsmilga.com',
   location: 'Los Angeles',
