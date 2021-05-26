@@ -19,7 +19,7 @@ export default {
   site_admin: false,
   name: 'Joseph Medina',
   company: 'None',
-  blog: 'www.johnsmilga.com',
+  blog: 'www.jos3phm.com',
   location: 'Los Angeles',
   email: null,
   hireable: null,
