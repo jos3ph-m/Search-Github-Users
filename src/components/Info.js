@@ -30,6 +30,13 @@ const UserInfo = () => {
       value: following,
       color: 'purple',
     },
+    {
+      id: 4,
+      icon: <GoGist className="icon" />,
+      label: 'gists',
+      value: public_gists,
+      color: 'yellow',
+    },
   ];
 
   return <h2>info component</h2>;
