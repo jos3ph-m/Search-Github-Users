@@ -6,7 +6,7 @@ import { FiUsers, FiUserPlus } from 'react-icons/fi';
 
 const UserInfo = () => {
   const { githubUser } = React.useContext(GithubContext);
-  console.log(data);
+
   return <h2>info component</h2>;
 };
 
