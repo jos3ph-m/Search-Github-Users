@@ -46,6 +46,12 @@ const UserInfo = () => {
   </section>;
 };
 
+const Item = ({icon, label, value, color}) => {
+  return <article className="item">
+
+  </article>
+}
+
 const Wrapper = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
