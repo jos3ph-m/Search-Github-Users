@@ -16,6 +16,13 @@ const UserInfo = () => {
       value: public_repos,
       color: 'pink',
     },
+    {
+      id: 2,
+      icon: <FiUsers className="icon" />,
+      label: 'followers',
+      value: followers,
+      color: 'green',
+    },
   ];
 
   return <h2>info component</h2>;
