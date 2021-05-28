@@ -39,7 +39,11 @@ const UserInfo = () => {
     },
   ];
 
-  return <h2>info component</h2>;
+  return <section className="section">
+    <Wrapper className="section-center">
+      {items.map(item => return <p>item</p>)}
+    </Wrapper>
+  </section>;
 };
 
 const Wrapper = styled.section`
