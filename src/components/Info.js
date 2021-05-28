@@ -23,6 +23,13 @@ const UserInfo = () => {
       value: followers,
       color: 'green',
     },
+    {
+      id: 3,
+      icon: <FiUsersPlus className="icon" />,
+      label: 'following',
+      value: following,
+      color: 'purple',
+    },
   ];
 
   return <h2>info component</h2>;
