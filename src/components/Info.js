@@ -8,7 +8,7 @@ const UserInfo = () => {
   const { githubUser } = React.useContext(GithubContext);
   const { public_repos, followers, following, public_gists } = githubUser;
 
-  const items = [];
+  const items = [{ id: 1, icon: <GoRepo className="icon" /> }];
 
   return <h2>info component</h2>;
 };
