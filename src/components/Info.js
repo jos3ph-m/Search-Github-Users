@@ -5,7 +5,7 @@ import { GoRepo, GoGist } from 'react-icons/go';
 import { FiUsers, FiUserPlus } from 'react-icons/fi';
 
 const UserInfo = () => {
-  const data = React.useContext(GithubContext);
+  const { githubUser } = React.useContext(GithubContext);
   console.log(data);
   return <h2>info component</h2>;
 };
