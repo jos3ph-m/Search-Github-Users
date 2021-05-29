@@ -14,7 +14,13 @@ const Card = () => {
     location,
     twitter_username,
   } = githubUser;
-  return <Wrapper></Wrapper>;
+  return (
+    <Wrapper>
+      <header>
+        <img src={avatar_url} alt={name} />
+      </header>
+    </Wrapper>
+  );
 };
 const Wrapper = styled.article`
   background: var(--clr-white);
