@@ -24,7 +24,7 @@ const Card = () => {
         </div>
         <a href={html_url}>follow</a>
       </header>
-      <p className="bio">bio</p>
+      <p className="bio">{bio}</p>
     </Wrapper>
   );
 };
