@@ -19,7 +19,7 @@ const Card = () => {
       <header>
         <img src={avatar_url} alt={name} />
         <div>
-          <h4></h4>
+          <h4>{name}</h4>
         </div>
       </header>
     </Wrapper>
