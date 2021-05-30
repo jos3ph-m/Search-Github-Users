@@ -18,6 +18,7 @@ const Card = () => {
     <Wrapper>
       <header>
         <img src={avatar_url} alt={name} />
+        <div></div>
       </header>
     </Wrapper>
   );
