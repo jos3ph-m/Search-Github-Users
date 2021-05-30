@@ -22,7 +22,7 @@ const Card = () => {
           <h4>{name}</h4>
           <p>@{twitter_username || 'Not lame enough for twitter'}</p>
         </div>
-        <a href=""></a>
+        <a href={''}></a>
       </header>
     </Wrapper>
   );
