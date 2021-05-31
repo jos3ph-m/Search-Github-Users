@@ -29,6 +29,9 @@ const Card = () => {
         <p>
           <MdBusiness></MdBusiness> {company}
         </p>
+        <p>
+          <MdLocationOn></MdLocationOn> {location || 'earth'}
+        </p>
       </div>
     </Wrapper>
   );
