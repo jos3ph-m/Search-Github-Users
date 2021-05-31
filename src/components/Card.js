@@ -27,7 +27,7 @@ const Card = () => {
       <p className="bio">{bio}</p>
       <div className="links">
         <p>
-          <MdBusiness></MdBusiness>
+          <MdBusiness></MdBusiness> {company}
         </p>
       </div>
     </Wrapper>
