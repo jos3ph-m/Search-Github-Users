@@ -13,6 +13,9 @@ const Followers = () => {
           return (
             <article key={index}>
               <img src={img} alt={login} />
+              <div>
+                <h4>{login}</h4>
+              </div>
             </article>
           );
         })}
