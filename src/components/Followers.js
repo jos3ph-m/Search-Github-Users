@@ -16,6 +16,7 @@ const Followers = () => {
               <div>
                 <h4>{login}</h4>
               </div>
+              <a href={html_url}>{html_url}</a>
             </article>
           );
         })}
