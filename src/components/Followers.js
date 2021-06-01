@@ -15,8 +15,8 @@ const Followers = () => {
               <img src={img} alt={login} />
               <div>
                 <h4>{login}</h4>
+                <a href={html_url}>{html_url}</a>
               </div>
-              <a href={html_url}>{html_url}</a>
             </article>
           );
         })}
