@@ -7,7 +7,7 @@ const Followers = () => {
 
   return (
     <Wrapper>
-      <div className="followers"></div>
+      <div className="followers">{followers.map((follower, index) => {})}</div>
     </Wrapper>
   );
 };
