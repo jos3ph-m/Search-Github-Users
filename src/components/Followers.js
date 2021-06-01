@@ -5,7 +5,11 @@ import styled from 'styled-components';
 const Followers = () => {
   const { followers } = React.useContext(GithubContext);
 
-  return <Wrapper>followers component</Wrapper>;
+  return (
+    <Wrapper>
+      <div className="followers"></div>
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.article`
