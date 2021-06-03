@@ -28,28 +28,8 @@ const chartData = [
     value: '23',
   },
   {
-    label: 'Canada',
-    value: '180',
-  },
-  {
-    label: 'Iran',
-    value: '140',
-  },
-  {
-    label: 'Russia',
-    value: '115',
-  },
-  {
-    label: 'UAE',
-    value: '100',
-  },
-  {
-    label: 'US',
-    value: '30',
-  },
-  {
-    label: 'China',
-    value: '30',
+    label: 'Javascript',
+    value: '80',
   },
 ];
 
