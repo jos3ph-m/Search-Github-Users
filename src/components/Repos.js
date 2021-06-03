@@ -12,7 +12,7 @@ const Repos = () => {
     },
     {
       label: 'CSS',
-      value: '23',
+      value: '95',
     },
     {
       label: 'Javascript',
