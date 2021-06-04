@@ -28,6 +28,7 @@ const ChartComponent = ({ data }) => {
       chart: {
         caption: 'Languages',
         theme: 'fusion',
+        decimals: 0,
       },
       // Chart Data
       data,
