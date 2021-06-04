@@ -4,9 +4,11 @@ import { GithubContext } from '../context/context';
 import { ExampleChart, Pie3D, Column3D, Bar3D, Doughnut2D } from './Charts';
 const Repos = () => {
   const { repos } = React.useContext(GithubContext);
-  console.log(repos);
+
   let languages = repos.reduce((total, item) => {
     const { language } = item;
+    if (!language) return total;
+    console.log(language);
     return total;
   }, {});
   const chartData = [
