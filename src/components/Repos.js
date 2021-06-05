@@ -19,6 +19,7 @@ const Repos = () => {
 
     return total;
   }, {});
+  languages = Object.values();
   const chartData = [
     {
       label: 'HTML',
