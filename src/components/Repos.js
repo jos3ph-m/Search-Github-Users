@@ -9,7 +9,7 @@ const Repos = () => {
     const { language } = item;
     if (!language) return total;
     if (!total[language]) {
-      total[language] = 1;
+      total[language] = {};
     } else {
       total[language] = total[language] + 1;
     }
