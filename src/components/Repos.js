@@ -19,7 +19,7 @@ const Repos = () => {
 
     return total;
   }, {});
-  languages = Object.values(languages);
+  languages = Object.values(languages).sort(() => {});
   const chartData = [
     {
       label: 'HTML',
