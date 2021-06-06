@@ -61,9 +61,9 @@ const Wrapper = styled.div`
     grid-template-columns: 2fr 3fr;
   }
 
-  div {
+  /* div {
     width: 100% !important;
-  }
+  } */
   .fusioncharts-container {
     width: 100% !important;
   }
