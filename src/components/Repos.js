@@ -25,6 +25,10 @@ const Repos = () => {
       return b.value - a.value;
     })
     .slice(0, 5);
+
+  // most stars per language
+  const mostPopular = Object.values(languages);
+
   const chartData = [
     {
       label: 'HTML',
@@ -43,7 +47,7 @@ const Repos = () => {
   return (
     <section className="section">
       <Wrapper className="section-center">
-        <Pie3D data={languages}></Pie3D>
+        <Pie3D data={mostUsed}></Pie3D>
         <div></div>
         <Doughnut2D data={chartData} />;
       </Wrapper>
