@@ -35,7 +35,7 @@ const Repos = () => {
       return { ...item, value: item.stars };
     })
     .slice(0, 5);
-  console.log(mostPopular);
+
   const chartData = [
     {
       label: 'HTML',
