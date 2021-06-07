@@ -20,7 +20,7 @@ const Repos = () => {
 
     return total;
   }, {});
-  languages = Object.values(languages)
+  const mostUsed = Object.values(languages)
     .sort((a, b) => {
       return b.value - a.value;
     })
