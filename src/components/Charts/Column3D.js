@@ -26,10 +26,7 @@ const ChartComponent = ({ data }) => {
     dataSource: {
       // Chart Configuration
       chart: {
-        caption: 'Languages',
-        theme: 'fusion',
-        decimals: 0,
-        pieRadius: '45%',
+        caption: 'Most Popular',
       },
       // Chart Data
       data,
