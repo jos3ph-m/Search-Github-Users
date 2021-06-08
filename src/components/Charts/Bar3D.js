@@ -28,6 +28,9 @@ const ChartComponent = ({ data }) => {
       chart: {
         caption: 'Most Forked',
         yAxisName: 'Forks',
+        xAxisName: 'Repos',
+        yAxisNameFontSize: '16px',
+        xAxisNameFontSize: '16px',
       },
       // Chart Data
       data,
