@@ -27,6 +27,7 @@ const ChartComponent = ({ data }) => {
       // Chart Configuration
       chart: {
         caption: 'Most Popular',
+        yAxisName: 'Stars',
       },
       // Chart Data
       data,
