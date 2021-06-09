@@ -11,7 +11,9 @@ const Search = () => {
   };
   return (
     <section className="section">
-      <Wrapper className="section-center"></Wrapper>
+      <Wrapper className="section-center">
+        <form></form>
+      </Wrapper>
     </section>
   );
 };
