@@ -9,7 +9,7 @@ const Search = () => {
   const handleSubmit = (e) => {
     console.log(user);
   };
-  return <h2>search component</h2>;
+  return <section className="section">search component</section>;
 };
 
 const Wrapper = styled.div`
