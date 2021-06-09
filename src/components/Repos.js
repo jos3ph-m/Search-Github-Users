@@ -37,7 +37,10 @@ const Repos = () => {
     .slice(0, 5);
 
   // stars, forks
-  let { stars, forks } = repos.reduce();
+  let { stars, forks } = repos.reduce(() => {}, {
+    stars: {},
+    forks: {},
+  });
 
   const chartData = [
     {
