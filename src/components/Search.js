@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { MdSearch } from 'react-icons/md';
 import { GithubContext } from '../context/context';
 const Search = () => {
+  // there will be a local state for the search
+  const [user, setUser] = React.useState('');
   return <h2>search component</h2>;
 };
 
