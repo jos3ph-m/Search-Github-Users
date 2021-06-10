@@ -15,6 +15,7 @@ const Search = () => {
         <form onSubmit={handleSubmit}>
           <div className="form-control">
             <MdSearch />
+            <input type="text" placeholder="enter github user" />
           </div>
         </form>
       </Wrapper>
