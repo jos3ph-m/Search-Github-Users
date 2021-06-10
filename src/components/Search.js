@@ -12,7 +12,7 @@ const Search = () => {
   return (
     <section className="section">
       <Wrapper className="section-center">
-        <form onSubmit={}></form>
+        <form onSubmit={handleSubmit}></form>
       </Wrapper>
     </section>
   );
