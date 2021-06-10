@@ -11,7 +11,7 @@ const Search = () => {
     if (user) {
       // more logic coming
       // optional
-      setUser('');
+      // setUser('');
     }
   };
   return (
