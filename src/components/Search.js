@@ -13,7 +13,9 @@ const Search = () => {
     <section className="section">
       <Wrapper className="section-center">
         <form onSubmit={handleSubmit}>
-          <div className="form-control"></div>
+          <div className="form-control">
+            <MdSearch />
+          </div>
         </form>
       </Wrapper>
     </section>
