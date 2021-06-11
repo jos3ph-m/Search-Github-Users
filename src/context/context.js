@@ -26,7 +26,7 @@ const GithubProvider = ({ children }) => {
 
   // error
   useEffect(() => {
-    console.log('hey app loaded');
+    checkRequests();
   }, []);
 
   return (
