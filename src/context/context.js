@@ -20,7 +20,9 @@ const GithubProvider = ({ children }) => {
   // check rate
   const checkRequests = () => {
     axios(`${rootUrl}/rate_limit`)
-      .then((data) => {})
+      .then(({ data }) => {
+        console.log(data);
+      })
       .catch((err) => console.log(err));
   };
 
