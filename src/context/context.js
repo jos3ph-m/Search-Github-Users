@@ -15,7 +15,7 @@ const GithubProvider = ({ children }) => {
   const [repos, setRepos] = useState(mockRepos);
   const [followers, setFollowers] = useState(mockFollowers);
   // request loading
-  const []
+  const [requests, setRequests] = useState(0);
 
   return (
     <GithubContext.Provider value={{ githubUser, repos, followers }}>
