@@ -17,6 +17,7 @@ const GithubProvider = ({ children }) => {
   // request loading
   const [requests, setRequests] = useState(0);
   const [loading, setIsLoading] = useState(false);
+  //error
 
   return (
     <GithubContext.Provider value={{ githubUser, repos, followers }}>
