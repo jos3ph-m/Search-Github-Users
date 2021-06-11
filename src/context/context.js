@@ -17,7 +17,10 @@ const GithubProvider = ({ children }) => {
   // request loading
   const [requests, setRequests] = useState(0);
   const [loading, setIsLoading] = useState(false);
-  //error
+  // check rate
+  const checkRequests = () => {};
+
+  // error
   useEffect(() => {
     console.log('hey app loaded');
   }, []);
