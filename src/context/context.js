@@ -17,6 +17,9 @@ const GithubProvider = ({ children }) => {
   // request loading
   const [requests, setRequests] = useState(0);
   const [loading, setIsLoading] = useState(false);
+  // error
+  const [error, setError] = useState({ show: false, msg: '' });
+
   // check rate
   const checkRequests = () => {
     axios(`${rootUrl}/rate_limit`)
