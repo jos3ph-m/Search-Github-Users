@@ -5,7 +5,7 @@ import { GithubContext } from '../context/context';
 const Search = () => {
   // there will be a local state for the search
   const [user, setUser] = React.useState('');
-  const { requests } = React.useContext(GithubContext);
+  const { requests, error } = React.useContext(GithubContext);
   console.log(requests);
   // get things from global context
   const handleSubmit = (e) => {
