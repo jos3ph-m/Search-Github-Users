@@ -21,7 +21,7 @@ const GithubProvider = ({ children }) => {
   const [error, setError] = useState({ show: false, msg: '' });
 
   const searchGithubUser = async (user) => {
-    //toggle user
+    //toggleError
   };
 
   // check rate
