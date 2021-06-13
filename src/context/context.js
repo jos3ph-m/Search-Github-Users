@@ -20,9 +20,7 @@ const GithubProvider = ({ children }) => {
   // error
   const [error, setError] = useState({ show: false, msg: '' });
 
-  const searchGithubUser = async (user) => {
-    console.log(user);
-  };
+  const searchGithubUser = async (user) => {};
 
   // check rate
   const checkRequests = () => {
