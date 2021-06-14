@@ -16,7 +16,7 @@ const GithubProvider = ({ children }) => {
   const [followers, setFollowers] = useState(mockFollowers);
   // request loading
   const [requests, setRequests] = useState(0);
-  const [loading, setIsLoading] = useState(false);
+  const [loading, setIsLoading] = useState(true);
   // error
   const [error, setError] = useState({ show: false, msg: '' });
 
@@ -26,7 +26,7 @@ const GithubProvider = ({ children }) => {
     const response = await axios(`${rootUrl}/users/${user}`).catch((err) =>
       console.log(err)
     );
-    console.log(response);
+
     if (response) {
       setGithubUser(response.data);
       // more logic coming here
