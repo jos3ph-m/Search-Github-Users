@@ -9,7 +9,7 @@ const Dashboard = () => {
       <main>
         <Navbar />
         <Search />
-        <isLoading />
+        <img src={loadingImage} />
       </main>
     );
   }
