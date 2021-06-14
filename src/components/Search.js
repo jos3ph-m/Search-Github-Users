@@ -6,7 +6,7 @@ const Search = () => {
   // there will be a local state for the search
   const [user, setUser] = React.useState('');
   const { requests, error, searchGithubUser } = React.useContext(GithubContext);
-  console.log(requests);
+
   // get things from global context
   const handleSubmit = (e) => {
     e.preventDefault();
