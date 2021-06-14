@@ -16,13 +16,13 @@ const GithubProvider = ({ children }) => {
   const [followers, setFollowers] = useState(mockFollowers);
   // request loading
   const [requests, setRequests] = useState(0);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   // error
   const [error, setError] = useState({ show: false, msg: '' });
 
   const searchGithubUser = async (user) => {
     toggleError();
-    //setLoading(true)
+    setIsLoading(true);
     const response = await axios(`${rootUrl}/users/${user}`).catch((err) =>
       console.log(err)
     );
