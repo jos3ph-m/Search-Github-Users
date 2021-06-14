@@ -33,6 +33,8 @@ const GithubProvider = ({ children }) => {
     } else {
       toggleError(true, 'there is no user with that username');
     }
+    checkRequests();
+    setIsLoading(false);
   };
 
   // check rate
