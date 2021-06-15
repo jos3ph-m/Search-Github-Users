@@ -29,6 +29,7 @@ const GithubProvider = ({ children }) => {
 
     if (response) {
       setGithubUser(response.data);
+      const { login, follower_url } = response.data;
       // more logic coming here
       // repos
       // https://api.github.com/users/jos3ph-m/repos?per_page=100
