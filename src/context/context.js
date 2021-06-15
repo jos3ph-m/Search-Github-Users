@@ -31,6 +31,7 @@ const GithubProvider = ({ children }) => {
       setGithubUser(response.data);
       // more logic coming here
       // https://api.github.com/users/jos3ph-m/repos?per_page=100
+      // https://api.github.com/users/jos3ph-m/followers
     } else {
       toggleError(true, 'there is no user with that username');
     }
