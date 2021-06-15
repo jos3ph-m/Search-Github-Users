@@ -34,6 +34,7 @@ const GithubProvider = ({ children }) => {
       axios(`${rootUrl}/users/${login}/repos?per_page=100`).then((response) =>
         console.log(response)
       );
+      // followers
       axios(`${rootUrl}/users/${login}/repos?per_page=100`).then((response) =>
         console.log(response)
       );
