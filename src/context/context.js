@@ -36,6 +36,7 @@ const GithubProvider = ({ children }) => {
         axios(`${followers_url}?per_page=100`),
       ]).then((results) => {
         const [repos, followers] = results;
+        const status = 'fulfilled';
       });
     } else {
       toggleError(true, 'there is no user with that username');
