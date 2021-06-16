@@ -38,11 +38,6 @@ const GithubProvider = ({ children }) => {
       axios(`${followers_url}?per_page=100`).then((response) =>
         setFollowers(response.data)
       );
-      // more logic coming here
-      // repos
-      // https://api.github.com/users/jos3ph-m/repos?per_page=100
-      // followers
-      // https://api.github.com/users/jos3ph-m/followers
     } else {
       toggleError(true, 'there is no user with that username');
     }
