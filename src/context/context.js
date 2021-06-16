@@ -40,6 +40,9 @@ const GithubProvider = ({ children }) => {
         if (repos.status === status) {
           setRepos(repos.value.data);
         }
+        if (repos.followers === followers) {
+          setFollowers(followers.value.data);
+        }
       });
     } else {
       toggleError(true, 'there is no user with that username');
