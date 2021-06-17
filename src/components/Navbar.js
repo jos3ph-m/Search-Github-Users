@@ -7,7 +7,7 @@ const Navbar = () => {
     useAuth0();
   return (
     <Wrapper>
-      <button></button>
+      <button onClick=""></button>
     </Wrapper>
   );
 };
