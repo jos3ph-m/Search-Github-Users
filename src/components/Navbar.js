@@ -8,6 +8,7 @@ const Navbar = () => {
   return (
     <Wrapper>
       <button onClick={loginWithRedirect}>login</button>
+      <button></button>
     </Wrapper>
   );
 };
