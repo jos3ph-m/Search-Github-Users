@@ -7,6 +7,11 @@ function AuthWrapper({ children }) {
   if (loading) {
   }
   if (error) {
+    return (
+      <Wrapper>
+        <h1>{error.message}</h1>
+      </Wrapper>
+    );
   }
   return <>{children}</>;
 }
