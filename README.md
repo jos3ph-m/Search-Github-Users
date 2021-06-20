@@ -1,6 +1,6 @@
 # Search Github Users
 
-This project is based on a project class by John Smilga in his React Tutorial
+This project is based on a project class by John Smilga in his React Tutorial and Projects
 
 ## Styled Components
 
