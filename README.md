@@ -1,6 +1,6 @@
 # Search Github Users
 
-This project is based on a course by
+This project is based on a course by John Smilga
 
 ## Styled Components
 
