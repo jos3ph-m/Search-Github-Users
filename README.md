@@ -2,7 +2,7 @@
 
 This project is based on a project class by John Smilga in his [React Tutorial and Projects Course](https://www.udemy.com/course/react-tutorial-and-projects-course)
 
-I highly recommend checking out the course if you're into React.
+I highly recommend checking out the course if you're into React. I've learned a ton!
 
 ## Styled Components
 
