@@ -1,6 +1,6 @@
 # Search Github Users
 
-This project is based on a course
+This project is based on a course by
 
 ## Styled Components
 
